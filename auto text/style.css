@@ -1,0 +1,12 @@
+
+
+body{
+    align-items: center;
+    margin: 0;  
+    font-family: "poppins",sans-serif;
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    background-color: rebeccapurple;
+    color: white;
+}
