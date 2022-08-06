@@ -1,28 +1,44 @@
 
+*{
+    box-sizing: border-box;
+}
+
 body{
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
     margin: 0;
     font-family: "poppins",sans-serif;
     min-height: 100vh;
-    justify-content: center;
+    padding: 5rem;
+    
+    transition: backgorund 0.5s linear, color 0.5s linear;
 }
-button{
+
+body.dark{
+    background-color: black;
     color: white;
-    background-color: rebeccapurple;
-    padding: 1rem;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    box-shadow: 2px 2px 6px gray;
-    transition: transform 0.1s linear;
 }
-
-button:focus{
-    outline:none;
+.toggle-con{
+    position: fixed;
+    top: 10px;
+    right: 10px;  
 }
+#toggle{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
 
-button:active {
-    box-shadow: 0;
-    transform: translate(2px, 2px);
+    transition: background 0.5s linear;
+    
+}
+body.dark #toggle{
+    background-color: white;
+}
+input{
+    visibility: hidden;
 }
