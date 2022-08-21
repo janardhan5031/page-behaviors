@@ -1,0 +1,26 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+
+}
+.carousel{
+    overflow: hidden;
+    height: 500px;  
+    width: 500px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.images_container{
+    display: flex;
+    height: inherit;
+    width: inherit;
+    transition: transform 0.3s linear;
+
+}
+img{
+    object-fit: cover;
+    height: inherit;
+    width: inherit;
+}
