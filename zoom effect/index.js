@@ -9,8 +9,8 @@ container.addEventListener('mousemove',(e) => {
 
     //console.log(x,y);
 
-    image.style.transformOrigin=`${x}px ${y}px`;
-    image.style.transform ="scale(3)" ;
+    image.style.transformOrigin=`center center`;
+    image.style.transform ="scale(2)" ;
 });
 
 container.addEventListener('mouseleave',()=> {

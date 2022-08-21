@@ -16,6 +16,7 @@ body{
     width: 500px;
 }
 img{
+    transition-duration: 3s;
     transform-origin: center center;
     height: 500px;
     width: 500px;
