@@ -1,0 +1,23 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-family: "poppins",sans-serif;
+    min-height: 100vh;
+    justify-content: center;
+}
+.image-container{
+    height: 500px;
+    width: 500px;
+}
+img{
+    transform-origin: center center;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
