@@ -8,6 +8,6 @@ btn.addEventListener('click',()=>{
     container.appendChild(ele);
     ele.classList.add("toast");
     setTimeout(()=>{
-        ele.remove();   //remove msg from screen after 2 sec
+        ele.remove();   //remove msg from screen after 2 sec i.e this created div element will be removed from the parent element
     },4000)
 })
